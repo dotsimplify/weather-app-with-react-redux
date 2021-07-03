@@ -1,0 +1,97 @@
+.container {
+  box-shadow: 0 0 0.4rem #666;
+  -webkit-box-shadow: 0 0 0.4rem #666;
+  -moz-box-shadow: 0 0 0.4rem #666;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.addCityButton {
+  background-color: #fff;
+  border: transparent;
+}
+.addCityButton:hover {
+  color: #ce463d;
+}
+.titleDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  margin-top: 0;
+}
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #2b76bb;
+}
+.feelsLike {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #6b6c6d;
+}
+.plusIcon {
+  font-size: 2rem;
+}
+.temprtureDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.highLowTempDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.weatherIcon {
+  font-size: 1rem;
+  margin-right: 0.2rem;
+  color: rgb(92, 91, 91);
+}
+
+.tempData {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #918f8f;
+}
+.humidity {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(92, 91, 91);
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 1.3rem;
+  }
+  .feelsLike {
+    font-size: 0.9rem;
+  }
+  .weatherIcon {
+    font-size: 0.8rem;
+  }
+
+  .tempData {
+    font-size: 0.9rem;
+  }
+  .humidity {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgb(92, 91, 91);
+  }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+  .ManageCitiesDiv {
+    margin: auto;
+    min-width: 80%;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ManageCitiesDiv {
+    margin: auto;
+    min-width: 60%;
+    padding: 1rem;
+  }
+}

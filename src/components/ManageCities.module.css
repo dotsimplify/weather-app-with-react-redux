@@ -1,0 +1,32 @@
+.ManageCitiesDiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  max-width: 30%;
+}
+.inputBox {
+  min-width: 50%;
+}
+
+@media (max-width: 400px) {
+  .ManageCitiesDiv {
+    margin: auto;
+    min-width: 100%;
+    padding: 1rem;
+  }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+  .ManageCitiesDiv {
+    margin: auto;
+    min-width: 80%;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ManageCitiesDiv {
+    margin: auto;
+    min-width: 60%;
+    padding: 1rem;
+  }
+}

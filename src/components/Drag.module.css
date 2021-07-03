@@ -1,0 +1,33 @@
+.listContainer {
+  margin: 2rem auto;
+  /* max-width: 30rem; */
+  min-width: 30%;
+  padding: 0.9rem 2rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.4rem #aaaaaa;
+}
+.titleDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  color: #444444;
+  padding: 0.8rem 0.3rem;
+  border-bottom: 1px solid #dddddd;
+  cursor: pointer;
+}
+.barsIcon {
+  margin-right: 0.5rem;
+}
+.error {
+  text-align: center;
+}
+@media screen and (max-width: 360px) {
+  .listContainer {
+    margin: 0.5rem auto;
+    min-width: 100%;
+    padding: 0.5rem;
+  }
+}
